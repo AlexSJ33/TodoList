@@ -95,7 +95,7 @@ function Header() {
                   </p>
                 </div>
 
-                <div>
+                <div className="btnCompleDelete">
                   <button
                     className={`${task.flag ? "btnComplete2" : "btnComplete"}`}
                     onClick={() => handleComplete(task)}

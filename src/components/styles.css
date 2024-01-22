@@ -17,6 +17,7 @@
     width: 100%;
     max-width: 900px;
     height: 580px;
+    
   }
   .topo {
     width: 80%;
@@ -149,4 +150,38 @@
     font-size: 15px;
     color: #ccc;
   }
-  
+  @media (min-width: 374px) {
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        
+        width: 100%;
+      }
+      .topo {
+        width: 95%;
+      }
+ 
+      .base {
+        width: 95%;
+      }
+      .form_inputs {
+        display: flex;
+        flex-direction: column;
+      }
+      form button {
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0 auto;
+        margin-top: 50px;
+        
+      }
+      .btnCompleDelete {
+        display: flex;
+        flex-direction: column;
+        
+      }
+
+  }
