@@ -77,7 +77,8 @@ function Header() {
               />
             </label>
           </div>
-          <button type="submit">Adicionar</button>
+          <button type="submit" className="btnDesktop">Adicionar</button>
+          <button type="submit" className="bntMobile">+</button>
         </form>
       </div>
       <div className="base">

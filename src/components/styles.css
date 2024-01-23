@@ -63,7 +63,7 @@
     flex-direction: row;
     background-color: transparent;
   }
-  button {
+  .btnDesktop {
     width: 100px;
     height: 35px;
     border: 1px solid transparent;
@@ -75,6 +75,10 @@
     color: #fff;
     cursor: pointer;
   }
+  .bntMobile {
+    display: none;
+  }
+
   
   form label:first-child {
     margin-right: 15px;
@@ -150,38 +154,59 @@
     font-size: 15px;
     color: #ccc;
   }
-  @media (min-width: 374px) {
+  @media (max-width: 377px) {
 
       .container {
         display: flex;
         flex-direction: column;
         
         width: 100%;
+        
       }
       .topo {
-        width: 95%;
+        width: 90%;
       }
  
       .base {
-        width: 95%;
+        width: 90%;
+        height: 55%;
       }
       .form_inputs {
         display: flex;
         flex-direction: column;
+        
       }
-      form button {
+      .bntMobile {
         background-color: red;
+        color: #fff;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 0 auto;
         margin-top: 50px;
+        border: 1px solid transparent;
+        border-radius: 50%;
+        
+        
         
       }
+      .btnDesktop {
+        display: none;
+      }
+
       .btnCompleDelete {
         display: flex;
         flex-direction: column;
+        margin: 0 -10px;
+      }
+      .container span, p {
+        font-size: 75%;
         
       }
+      input {
+        height: 60%;
+        padding: 5px;
+      }
+
 
   }
