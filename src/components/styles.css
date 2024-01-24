@@ -154,7 +154,7 @@
     font-size: 15px;
     color: #ccc;
   }
-  @media (max-width: 377px) {
+  @media (max-width: 432px) {
 
       .container {
         display: flex;
@@ -177,7 +177,7 @@
         
       }
       .bntMobile {
-        background-color: red;
+        background-color: orange;
         color: #fff;
         display: flex;
         align-items: center;
@@ -185,9 +185,10 @@
         margin-bottom: 0 auto;
         margin-top: 50px;
         border: 1px solid transparent;
-        border-radius: 50%;
-        
-        
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        font-size: 35px;
         
       }
       .btnDesktop {
@@ -208,5 +209,19 @@
         padding: 5px;
       }
 
+  }
 
+  @media (max-height: 722px) {
+      .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+      .topo {
+        width: 90%;
+      }
+      .base {
+        width: 90%;
+        height: 55%;
+      }    
   }
