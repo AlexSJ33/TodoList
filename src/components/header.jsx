@@ -82,7 +82,7 @@ function Header() {
         </form>
       </div>
       <div className="base">
-        <div className={`lista ${documents?.length >= 6 && "scroll"}`}>
+        <div className={`lista ${documents?.length >= 2 && "scroll"}`}>
           <ul>
             {documents?.map((task, index) => (
               <li key={index}>

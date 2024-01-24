@@ -112,6 +112,7 @@
     font-size: 35px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: orange;
+    padding-left: 15px;
   }
   
   .btnComplete {
@@ -149,10 +150,12 @@
     font-size: 24px;
     text-decoration: line-through;
     color: #ccc;
+    
   }
   .lista p {
     font-size: 15px;
     color: #ccc;
+    padding-left: 25px;
   }
   @media (max-width: 432px) {
 
