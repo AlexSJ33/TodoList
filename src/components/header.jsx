@@ -54,7 +54,7 @@ function Header() {
 
         <form onSubmit={addTask}>
           <div className="form_inputs">
-            <label>
+            <label className="labelInput">
               <p>Nome:</p>
               <input
                 type="text"
@@ -65,7 +65,7 @@ function Header() {
                 onChange={(e) => setTask(e.target.value)}
               />
             </label>
-            <label>
+            <label className="labelInput">
               <p>Descrição:</p>
               <input
                 type="text"
@@ -82,7 +82,7 @@ function Header() {
         </form>
       </div>
       <div className="base">
-        <div className={`lista ${documents?.length >= 2 && "scroll"}`}>
+        <div className={`lista ${documents?.length >= 6 && "scroll"}`}>
           <ul>
             {documents?.map((task, index) => (
               <li key={index}>
