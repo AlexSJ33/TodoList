@@ -55,7 +55,7 @@
   }
 
   .form_inputs label {
-    border: 1px solid pink;
+    
     width: 100%;
     max-width: 500px;
   }
@@ -188,7 +188,7 @@
       .form_inputs {
         display: flex;
         flex-direction: column;
-        width: 350px;
+        width: 250px;
 
       }
       .bntMobile {
@@ -220,7 +220,17 @@
         
       }
       
-      
+  }
+  @media (max-width: 442px) {
+
+    .form_inputs {
+
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+
+      }
+    
   }
 
  
